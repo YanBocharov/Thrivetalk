@@ -1,0 +1,19 @@
+.header {
+    margin-top: 25px;
+    &__wrapper {
+        height: 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__list {
+        display: flex;
+        gap: 25px;
+    }
+    &__item {
+        list-style-type: none;
+        a {
+            text-decoration: none;
+        }
+    }
+}

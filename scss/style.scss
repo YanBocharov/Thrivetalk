@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: 'Larsseit';
+    color: black;
+    font-size: 24px;
+}
+
+.container {
+    max-width: 1130px;
+    margin: 0 auto;
+}
+
+@import 'blocks/header';
