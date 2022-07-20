@@ -1,0 +1,38 @@
+@media (max-width: 1170px) {
+    .talk {
+        &__back {
+            img {
+                height: 650px;
+            }
+        }
+    }
+}
+@media (max-width: 1000px) {
+    .talk {
+        &__back {
+            img {
+                height: 550px;
+            }
+        }
+    }
+}
+@media (max-width: 920px) {
+    .talk {
+        &__back {
+            img {
+                display: none;
+            }
+        }
+        &__bg {
+            width: 100%;
+        }
+        &__wrapper {
+            max-width: 80%;
+            margin: 0 auto;
+        }
+        &__btns {
+            justify-content: center;
+        }
+    }
+}
+@media (max-width)
