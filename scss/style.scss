@@ -12,10 +12,24 @@
     max-width: 1130px;
     margin: 0 auto;
 }
+::-webkit-scrollbar {
+    width: 0px;
+}
 
 @import 'blocks/header';
 @import 'blocks/talk';
 @import 'blocks/thrive';
+@import 'blocks/about';
+@import 'blocks/cards';
+
+
+
+
+
+
+
+
+
 @import 'blocks/something';
 @import 'blocks/media';
 

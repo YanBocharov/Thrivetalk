@@ -1,8 +1,8 @@
 .thrive {
     position: relative;
-    height: 607px;
     &__wrapper {
         display: flex;
+        max-width: 555px;
     }
     &__img {
         position: absolute;
@@ -12,7 +12,8 @@
         top: 0;
     }
     &__text {
-        max-width: 555px;
+        max-width: 100%;
+        margin: 0 10px;
     }
     &__title {
         color: #fff;
@@ -25,6 +26,7 @@
         font-size: 20px;
         margin-top: 75px;
         line-height: 35px;
+        margin-bottom: 95px;
         span {
             color: #fff;
             font-size: 24px;

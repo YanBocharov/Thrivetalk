@@ -1,3 +1,16 @@
+@media (max-width: 1080px) {
+    .thrive {
+        &__title {
+            font-size: 30px;
+        }
+        &__subtitle {
+            font-size: 17px;
+            span {
+                font-size: 21px;
+            }
+        }
+    }
+}
 @media (max-width: 1170px) {
     .talk {
         &__back {
@@ -7,12 +20,54 @@
         }
     }
 }
+@media (max-width: 1030px) {
+    .thrive {
+        &__title {
+            margin-top: 100px;
+        }
+        &__subtitle {
+            margin-top: 55px;
+        }
+    }
+}
+@media (max-width: 1010px) {
+    
+}
 @media (max-width: 1000px) {
     .talk {
         &__back {
             img {
                 height: 550px;
             }
+        }
+    }
+}
+@media (max-width: 970px) {
+    .thrive {
+        &__title {
+            font-size: 27px;
+        }
+        &__subtitle {
+            font-size: 15px;
+            span {
+                font-size: 17px;
+            }
+        }
+    }
+}
+@media (max-width: 940px) {
+    .thrive {
+        &__title {
+            font-size: 25px;
+        }
+        &__subtitle {
+            font-size: 14px;
+            span {
+                font-size: 15px;
+            }
+        }
+        &__wrapper {
+            max-width: 450px;
         }
     }
 }
@@ -33,6 +88,152 @@
         &__btns {
             justify-content: center;
         }
+        &__title {
+            text-align: center;
+        }
     }
 }
-@media (max-width)
+@media (max-width: 900px) {
+    .about {
+        &__descr {
+            left: 35px;
+        }
+    }
+}
+@media (max-width: 859px) {
+    .thrive {
+        &__text {
+            text-align: center;
+        }
+        &__title {
+            font-size: 40px;
+        }
+        &__subtitle {
+            font-size: 21px;
+            max-width: 80%;
+            margin: 0 auto;
+            margin-top: 50px;
+            margin-bottom: 50px;
+            span {
+                font-size: 23px;
+            }
+        }
+        &__img {
+            display: none;
+        }
+        &__wrapper {
+            max-width: 100%;
+        }
+    }
+}
+@media (max-width: 845px) {
+    .about {
+        &__descr {
+            display: block;
+            position: relative;
+            text-align: center;
+            left: 0;
+            margin-top: 40px;
+        }
+        &__title {
+            margin: 0 auto;
+            margin-top: 50px;
+            padding: 0 10px;
+        }
+    }
+}
+@media (max-width: 600px) {
+    .talk {
+        margin-top: 100px;
+        &__wrapper {
+            max-width: 90%;
+        }
+    }
+    .thrive {
+        &__title {
+            font-size: 35px;
+        }
+        &__subtitle {
+            font-size: 19px;
+            max-width: 100%;
+            span {
+                font-size: 22px;
+            }
+        }
+    }
+}
+@media (max-width: 535px) {
+    .header {
+        &__logo {
+            a {
+                font-size: 20px;
+            }
+        }
+        &__btn {
+            width: 110px;
+            height: 40px;
+            font-size: 12px;
+        }
+    }
+    .talk {
+        &__title {
+            font-size: 35px;
+        }
+        &__subtitle {
+            font-size: 20px;
+            margin-top: 35px;
+        }
+    }
+}
+@media (max-width: 500px) {
+    .about {
+        &__title {
+            font-size: 20px;
+        }
+    }
+}
+@media (max-width: 470px) {
+    .header {
+        &__logo {
+            a {
+                display: none;
+            }
+        }
+        &__wrapper {
+            justify-content: center;
+            gap: 25px;
+        }
+    }
+}
+@media (max-width: 460px) {
+    .thrive {
+        &__title {
+            margin-top: 60px;
+            font-size: 30px;
+        }
+        &__subtitle {
+            font-size: 17px;
+            span {
+                font-size: 19px;
+            }
+        }
+    }
+}
+@media (max-width: 390px) {
+    .header {
+        &__list {
+            gap: 10px;
+        }
+        &__wrapper {
+            margin-left: 0;
+        }
+    }
+}
+@media (max-width: 330px) {
+    .header {
+        &__btn {
+            width: 100px;
+            font-size: 10px;
+        }
+    }
+}
