@@ -30,15 +30,20 @@
         }
     }
 }
-@media (max-width: 1010px) {
-    
-}
 @media (max-width: 1000px) {
     .talk {
         &__back {
             img {
                 height: 550px;
             }
+        }
+    }
+}
+@media (max-width: 985px) {
+    .block {
+        &_descr {
+            font-size: 26px;
+            max-width: 155px;
         }
     }
 }
@@ -99,6 +104,11 @@
             left: 35px;
         }
     }
+    .facts {
+        &__wrapper {
+            grid-column-gap: 100px;
+        }
+    }
 }
 @media (max-width: 859px) {
     .thrive {
@@ -142,6 +152,34 @@
         }
     }
 }
+@media (max-width: 835px) {
+    .block {
+        &_descr {
+            font-size: 23px;
+            max-width: 90px;
+        }
+    }
+}
+@media (max-width: 800px) {
+    .blocks {
+        &_grid {
+            grid-template-rows: repeat(2, 280px);
+        }
+    }
+}
+@media (max-width: 700px) {
+    .facts {
+        &__wrapper {
+            grid-column-gap: 70px;
+        }
+        &__title {
+            font-size: 22px;
+        }
+        &__subtitle {
+            font-size: 14px;
+        }
+    }
+}
 @media (max-width: 600px) {
     .talk {
         margin-top: 100px;
@@ -159,6 +197,20 @@
             span {
                 font-size: 22px;
             }
+        }
+    }
+}
+@media (max-width: 585px) {
+    .block {
+        height: 260px;
+        &_descr {
+            font-size: 20px;
+            max-width: 75px;
+        }
+    }
+    .blocks {
+        &_grid {
+            grid-template-rows: repeat(2, 260px);
         }
     }
 }
@@ -227,6 +279,17 @@
         &__wrapper {
             margin-left: 0;
         }
+    }
+    .block {
+        &_descr {
+            font-size: 18px;
+            &::before {
+                display: none;
+            }
+        }
+    }
+    .mw95 {
+        max-width: 95px;
     }
 }
 @media (max-width: 330px) {

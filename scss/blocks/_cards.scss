@@ -24,7 +24,8 @@
         line-height: 34px;
         letter-spacing: -0.006em;
         color: #FFFFFF;
-        margin: 0 auto;
+        margin-left: auto;
+        margin-right: auto;
         margin-top: 95px;
         &::before {
             position: absolute;
@@ -41,7 +42,7 @@
 }
 .line {
     position: absolute;
-    width: 80%;
+    width: 70%;
     height: 1px;
     background: #0052C1;
     box-shadow: inset 0px -1px 0px #FFFFFF;
