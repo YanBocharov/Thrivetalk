@@ -1,5 +1,7 @@
 .blocks {
     display: flex;
+    max-width: 1440px;
+    margin: 0 auto;
     margin-top: 25px;
     &_grid {
         display: grid;

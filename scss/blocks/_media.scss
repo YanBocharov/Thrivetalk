@@ -1,3 +1,26 @@
+@media (max-width: 1240px) {
+    .info {
+        &__text {
+            gap: 40px;
+        }
+    }
+}
+@media (max-width: 1170px) {
+    .talk {
+        &__back {
+            img {
+                height: 650px;
+            }
+        }
+    }
+}
+@media (max-width: 1120px) {
+    .info {
+        &__text {
+            gap: 20px;
+        }
+    }
+}
 @media (max-width: 1080px) {
     .thrive {
         &__title {
@@ -10,13 +33,10 @@
             }
         }
     }
-}
-@media (max-width: 1170px) {
-    .talk {
-        &__back {
-            img {
-                height: 650px;
-            }
+    .info {
+        &__img {
+            width: 370px;
+            object-fit: cover;
         }
     }
 }
@@ -38,6 +58,12 @@
             }
         }
     }
+    .know {
+        &__text {
+            margin-left: 45px;
+            margin-right: 10px;
+        }
+    }
 }
 @media (max-width: 985px) {
     .block {
@@ -57,6 +83,16 @@
             span {
                 font-size: 17px;
             }
+        }
+    }
+}
+@media (max-width: 955px) {
+    .smile {
+        &__title {
+            font-size: 50px;
+        }
+        &__subtitle {
+            font-size: 30px;
         }
     }
 }
@@ -107,6 +143,44 @@
     .facts {
         &__wrapper {
             grid-column-gap: 100px;
+        }
+    }
+    .know {
+        &__img {
+            display: none;
+        }
+        &__descr {
+            margin-top: 20px;
+        }
+        &__title {
+            margin-top: 30px;
+        }
+        &__help {
+            margin-top: 30px;
+        }
+        &__text {
+            margin: 0 20px;
+        }
+    }
+    .smile {
+        &__img {
+            display: none;
+        }
+        &__text {
+            text-align: center;
+        }
+        &__title {
+            margin-top: 100px;
+        }
+        &__link {
+            margin: 0 auto;
+            margin-top: 75px;
+            margin-bottom: 75px;
+        }
+    }
+    .info {
+        &__img {
+            width: 270px;
         }
     }
 }
@@ -167,6 +241,17 @@
         }
     }
 }
+@media (max-width: 780px) {
+    .info {
+        &__img {
+            display: none;
+        }
+        &__text {
+            gap: 50px;
+            justify-content: space-between;
+        }
+    }
+}
 @media (max-width: 700px) {
     .facts {
         &__wrapper {
@@ -197,6 +282,11 @@
             span {
                 font-size: 22px;
             }
+        }
+    }
+    .info {
+        &__text {
+            gap: 20px;
         }
     }
 }
@@ -248,10 +338,32 @@
         }
     }
 }
+@media (max-width: 520px) {
+    .info {
+        &__text {
+            display: grid;
+            grid-template-columns: repeat(2, auto);
+            grid-template-rows: repeat(2, auto);
+            grid-row-gap: 50px;
+            margin: 0 10px;
+            margin-top: 75px;
+            margin-bottom: 75px;
+        }
+    }
+}
 @media (max-width: 500px) {
     .about {
         &__title {
             font-size: 20px;
+        }
+    }
+    .know {
+        &__title {
+            font-size: 25px;
+            line-height: 40px;
+            span {
+                font-size: 27px;
+            }
         }
     }
 }

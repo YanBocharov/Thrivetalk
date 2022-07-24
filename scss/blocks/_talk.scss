@@ -1,4 +1,6 @@
 .talk {
+    max-width: 1440px;
+    margin: 0 auto;
     margin-top: 165px;
     &__wrapper {
         max-width: 485px;
@@ -33,13 +35,19 @@
         font-size: 16px;
         text-decoration: none;
         color: #FAB63E;
+        transition: 0.5s all;
+        &:hover {
+            transition: 0.5s all;
+            background-color: #FAB63E;
+            color: #fff;
+        }
     }
     &__bg {
         position: absolute;
         top: 0;
         left: 0;
         height: 836px;
-        width: 80%;
+        width: 100%;
         background: #F4F9E2;
         z-index: -2;
     }
