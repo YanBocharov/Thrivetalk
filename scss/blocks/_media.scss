@@ -366,6 +366,13 @@
             }
         }
     }
+    .block {
+        &_descr {
+            &::before {
+                display: none;
+            }
+        }
+    }
 }
 @media (max-width: 487px) {
     .facts {
